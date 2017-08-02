@@ -11,6 +11,13 @@ from pymongo import MongoClient
 import json
 import requests
 
+
+
+#i have changed my file
+
+
+
+
 #hotel search
 url="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=40.703749, -73.820798&radius=10000&type=hotels&keyword=hotel&key=%20AIzaSyCA7Ju4jwAoUxDu4GZbCZcwahHdz7OGQfc"
 response = requests.get(url)
